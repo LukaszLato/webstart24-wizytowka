@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: "index.html",
-        polityka: "polityka.html",
+        main: "./index.html",
+        polityka: "./polityka.html",
       },
     },
   },
